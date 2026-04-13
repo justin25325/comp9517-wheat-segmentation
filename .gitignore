@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# --- COMP9517 wheat segmentation project-specific ---
+
+# Dataset (never commit)
+data/
+data/**
+
+# Generated outputs
+results/
+outputs/
+runs/
+logs/
+
+# Trained models / checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large archives
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
