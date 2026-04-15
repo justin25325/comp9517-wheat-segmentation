@@ -5,10 +5,6 @@ Trains the model with varying fractions of the training set (25%, 50%, 75%, 100%
 and plots how performance degrades. Also optionally injects label noise to analyse
 the effect of annotation quality.
 
-This addresses the HD-tier requirement:
-    "Conduct in-depth performance and failure analysis, especially when fewer
-     training images are used during training."
-
 Usage:
     python experiments/data_scarcity.py \
         --data_root ./EWS-Dataset \
