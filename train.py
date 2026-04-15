@@ -9,7 +9,7 @@ Usage:
     # Vanilla U-Net (from scratch)
     python train.py --model unet --data_root ./EWS-Dataset --epochs 60
 
-    # Pretrained ResNet-34 encoder (recommended for HD marks)
+    # Pretrained ResNet-34 encoder
     python train.py --model pretrained --data_root ./EWS-Dataset --epochs 40 --two_phase
 """
 
